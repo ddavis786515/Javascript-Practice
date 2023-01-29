@@ -11,7 +11,7 @@ function Employee(name, age, salary) {
     }
     this.getEmpDet = function () {
         console.log('Name: ' + this.name + ' Age: ' + this.age);
-        calcFinalSalary();
+        calcFinalSalary(); 
     }
 }
 
